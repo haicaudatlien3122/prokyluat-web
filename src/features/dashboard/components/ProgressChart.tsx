@@ -13,7 +13,7 @@ export default function ProgressChart() {
   ]
 
   return (
-    <div className="flex h-64 w-full items-end justify-between space-x-2 pt-4">
+    <div className="flex h-40 md:h-64 w-full items-end justify-between space-x-2 pt-4">
       {chartData.map((item, index) => (
         <div key={index} className="flex flex-col items-center justify-end w-full group">
           <div className="relative flex w-full justify-center">
